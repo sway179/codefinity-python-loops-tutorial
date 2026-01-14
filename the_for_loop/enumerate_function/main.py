@@ -6,6 +6,8 @@ travel_rankings = []
 
 # Use enumerate to label each destination
 
+for index, country in enumerate(countries):
+    travel_rankings.append(f"Destination {index + 1}: {country}")
 
 # Testing
 print("Travel destination rankings:", travel_rankings)
